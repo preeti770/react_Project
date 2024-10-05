@@ -1,0 +1,202 @@
+/* Main App Container */
+.App {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 
+}
+
+/* Form Title */
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form Group */
+.From-group {
+  margin-bottom: 20px;
+}
+
+/* Form Label */
+.From-label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Input Field Styles */
+.form-control {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+/* Select Field Styles */
+.form-select {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Gender Section */
+.form-group {
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.form-label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: block;
+  text-align: center;
+}
+
+/* Radio Button Container */
+.form-group div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Radio Buttons */
+input[type="radio"] {
+  margin-right: 10px;
+  
+}
+
+/* Gender Labels */
+.form-group label {
+  font-size: 16px;
+  color: #555;
+ 
+}
+
+/* Styles for Male/Female Labels */
+input[type="radio"] + label {
+  margin-right: 15px;
+  text-align: center;
+  align-items: center;
+}
+
+
+/* Button Styling (if needed) */
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+
+button:hover {
+  background-color: #45a049;
+}/* Profile Picture Upload Container */
+div {
+  margin-bottom: 20px;
+}
+
+/* Label for Profile Picture */
+label[for="profilePic"] {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* File Input Style */
+#profilePic {
+  width: 50%;
+  padding: 10px;
+  font-size: 14px;
+  color: #555;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+/* Hover Effect on File Input */
+#profilePic:hover {
+  border-color: #888;
+}
+
+/* Customize File Input Button Appearance (Optional) */
+input[type="file"]::-webkit-file-upload-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ 
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #45a049;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
